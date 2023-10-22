@@ -17,7 +17,7 @@ cwd=$(pwd)
 if [ ! -e "${download_dir}/LJSpeech-1.1" ]; then
     mkdir -p "${download_dir}"
     cd "${download_dir}"
-    wget http://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2
+    # wget http://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2
     tar -vxf ./*.tar.bz2
     rm ./*.tar.bz2
     cd "${cwd}"

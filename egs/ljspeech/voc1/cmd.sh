@@ -30,6 +30,8 @@
 # Select the backend used by run.sh from "local", "stdout", "sge", "slurm", or "ssh"
 cmd_backend="local"
 
+echo "running cmd_backend=${cmd_backend}"
+
 # Local machine, without any Job scheduling system
 if [ "${cmd_backend}" = local ]; then
 

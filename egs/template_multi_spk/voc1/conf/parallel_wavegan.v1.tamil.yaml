@@ -91,7 +91,7 @@ stft_loss_params:
   window: hann_window
 train_dumpdir: dump/train_nodev_all/norm
 train_feats_scp: null
-train_max_steps: 4000
+train_max_steps: 40000
 train_segments: null
 train_wav_scp: null
 trim_frame_size: 2048

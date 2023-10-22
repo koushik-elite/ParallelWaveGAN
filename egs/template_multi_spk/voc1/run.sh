@@ -11,13 +11,13 @@ stage=0        # stage to start
 stop_stage=100 # stage to stop
 verbose=1      # verbosity level (lower is less info)
 n_gpus=1       # number of gpus in training
-n_jobs=4       # number of parallel jobs in feature extraction
+n_jobs=1       # number of parallel jobs in feature extraction
 
 # NOTE(kan-bayashi): renamed to conf to avoid conflict in parse_options.sh
-conf=conf/parallel_wavegan.v1.yaml
+conf=conf/parallel_wavegan.v1.tamil.yaml
 
 # directory path setting
-db_root=/path/to/database # direcotry including spk name directory (MODIFY BY YOURSELF)
+db_root=downloads/tamil # direcotry including spk name directory (MODIFY BY YOURSELF)
                           # e.g.
                           # /path/to/database
                           # ├── spk_1

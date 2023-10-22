@@ -24,7 +24,6 @@ if LooseVersion(pip.__version__) < LooseVersion("19"):
 
 requirements = {
     "install": [
-        "torch>=1.4",
         "setuptools>=38.5.1",
         "librosa>=0.8.0",
         "soundfile>=0.10.2",
